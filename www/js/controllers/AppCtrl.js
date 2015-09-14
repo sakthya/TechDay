@@ -117,11 +117,11 @@ cordova.ThemeableBrowser.open('https://www.google.co.in/maps/place/Tesco+HSC/@12
       }
 
 $scope.items = [
-  {image:'http://san.capitalafrique.com/imatin.net/articles/images/lionel-messi.jpg'},
-  {image:'http://www.africatopsports.com/wp-content/uploads/2014/07/Sofiane-feghouli-team-teaser100_v-original-1024x576.jpg'},
-  {image:'http://www.footmercato.net/images/a/feghouli-a-fait-mal-au-barca_123563.jpg'},
-  {image:'http://img.fifa.com/mm/photo/tournament/competition/02/38/72/29/2387229_full-lnd.jpg'},
-  {image:'http://www.parisfans.fr/wp-content/uploads/2015/05/Mercato-Le-PSG-voudrait-Xavi-pour-une-saison.jpg'}
+  {image:'img/UK1.jpg'},
+  {image:'img/UK2.jpg'},
+  {image:'img/UK3.jpg'}
+  // {image:'http://img.fifa.com/mm/photo/tournament/competition/02/38/72/29/2387229_full-lnd.jpg'},
+  // {image:'http://www.parisfans.fr/wp-content/uploads/2015/05/Mercato-Le-PSG-voudrait-Xavi-pour-une-saison.jpg'}
  
 ];
 

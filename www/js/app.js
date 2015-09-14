@@ -197,7 +197,8 @@ angular.module('starter', ['ionic','ionic-material','starter.controllers.AppCtrl
     url: "/stalls",
     views: {
       'menuContent': {
-        templateUrl: "templates/stalls.html"
+        templateUrl: "templates/stalls.html",
+        controller:'AppCtrl'
       }
     }
   })
@@ -226,21 +227,21 @@ angular.module('starter', ['ionic','ionic-material','starter.controllers.AppCtrl
       }
     }
   })
-    .state('menu.agenda', {
-      url: "/agenda",
+    .state('menu.UKTechDay', {
+      url: "/UKTechDay",
       views: {
         'menuContent': {
-          templateUrl: "templates/agenda.html",
-          controller: 'AgendaCtrl'
+          templateUrl: "templates/UKTechDay.html",
+          controller: 'AppCtrl'
         }
       }
     })
-     .state('menu.events', {
-    url: "/events",
+     .state('menu.Twitter', {
+    url: "/Twitter",
     views: {
       'menuContent': {
-        templateUrl: "templates/events.html",
-        controller:'EventsCtrl'
+        templateUrl: "templates/Twitter.html",
+        controller:'AppCtrl'
       }
     }
   })

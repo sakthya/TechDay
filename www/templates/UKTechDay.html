@@ -1,0 +1,36 @@
+<ion-view view-title="UK Tech Day">
+  <ion-nav-buttons side="left">
+       <button class="button button-icon button-clear ion-navicon " menu-toggle="left" id="lhm_button">
+        </button>
+        <!-- <button menu-close class="button button-icon button-clear" ng-click="goToHomeScreen()" id="back">
+            <i class="icon_home ion-home"></i>
+        </button> -->
+    </ion-nav-buttons>
+    <ion-content class="animate-fade-slide-in">
+<div class="list card">
+ <div class="item item-avatar">
+      <img src="img/logo.png">
+
+    <h2>UK Technology day</h2>
+    <p>9th September 2015</p>
+
+  </div>
+
+
+  <div class="item item-body">
+     <ion-slide-box ng-if='items' show-pager="true" auto-play='true' does-continue='true' pager-click='true'>
+  <ion-slide  ng-repeat="i in items"> 
+    <div  class="video">
+      <img class="full-image" style="height:200px" ng-src="{{i.image}}" />
+    </div>
+  </ion-slide>
+</ion-slide-box>
+
+  </div>
+
+</div>
+
+
+</ion-content>
+
+</ion-view>
